@@ -5388,3 +5388,42 @@ C:[27/01/2024 00:23:34.12][172.16.4.20][N_E] SELECT pquia_nombre from parroquia 
  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
 *:[28/01/2024 19:37:32.94][172.16.4.20][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
 *:[28/01/2024 19:37:32.94][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[28/01/2024 22:49:43.57][172.16.4.20][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[28/01/2024 22:49:43.57][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[28/01/2024 22:50:25.30][172.16.4.20][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[28/01/2024 22:50:25.30][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[28/01/2024 22:51:50.92][172.16.4.20][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[28/01/2024 22:51:50.92][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[28/01/2024 23:08:15.06][172.16.4.20][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[28/01/2024 23:08:15.06][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[28/01/2024 23:50:58.03][172.16.4.20][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[28/01/2024 23:50:58.03][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[29/01/2024 00:06:34.34][172.16.4.20][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[29/01/2024 00:06:34.34][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[29/01/2024 00:08:20.71][172.16.4.20][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[29/01/2024 00:08:20.71][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[29/01/2024 00:14:21.01][172.16.4.20][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[29/01/2024 00:14:21.01][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[29/01/2024 00:17:41.69][172.16.4.20][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[29/01/2024 00:17:41.69][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
