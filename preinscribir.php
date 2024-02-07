@@ -19,14 +19,19 @@ $conex = new ODBC_Conn("NINGRESO","usuario2","usuario2",$ODBCC_conBitacora,$laBi
 $preinscrito = false;
 
 function envioValido() {
-	global $raizDelSitio;
+    global $raizDelSitio;
 
-	$formOK = false;
-	if (isset($_SERVER['HTTP_REFERER'])) {
-		$formOK = ($_SERVER['HTTP_REFERER'] == $raizDelSitio .'planilla_r.php');
-	}
-    $formOK = $formOK && isset($_REQUEST['ci_e']) && isset($_REQUEST['conducta']);
-	return $formOK;
+    $formOK = false;
+    if (isset($_SERVER['HTTP_REFERER'])) {
+        $formOK = ($_SERVER['HTTP_REFERER'] == $raizDelSitio .'planilla_r.php');
+    }
+    $formOK = isset($_REQUEST['ci_e']) && isset($_REQUEST['conducta']);
+
+    if (!$formOK) {
+        throw new Exception('Invalid form submission');
+    }
+
+    return $formOK;
 }
 
 function generarSQL($tabla, $nCampo, $aValores) {
@@ -63,8 +68,8 @@ function crearEjecutarSQL($exped) {
 	global $dsnPG,$IdPG,$ClavePG;
 	global $_d, $conex, $preinscrito;
 	
-	//OJO: Modificar el valor '09' para cada año con el valor correspondiente
-	// optimizar año de ingreso con funcion date
+	//OJO: Modificar el valor '09' para cada aï¿½o con el valor correspondiente
+	// optimizar aï¿½o de ingreso con funcion date
 	//$exped = date("y")."-".$_d['ci_e'];
 	$_d['exp_e'] = $exped;
 	/*$ind=explode(',',$_d['ind_cnu']);
