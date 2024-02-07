@@ -5457,3 +5457,68 @@ C:[27/01/2024 00:23:34.12][172.16.4.20][N_E] SELECT pquia_nombre from parroquia 
 *:[29/01/2024 04:20:45.22][172.16.4.20][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
 *:[29/01/2024 04:20:45.15][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
 *:[29/01/2024 04:20:45.22][172.16.4.20][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT pai_nombre from paises where codigo = 232 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT edo_nombre from estados where codigo = 6 and cod_pais = 232 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT cd_nombre from ciudades where codigo = 65 and cod_pais = 232 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT mpio_nombre from municipios where codigo = 1 and cod_edo = 6 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT pquia_nombre from parroquia where cdo_pquia = 7 and cod_edo = 6 and cod_mpio=1 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT edo_nombre from estados where codigo = 6 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT cd_nombre from ciudades where codigo = 65 and cod_edo = 6 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT mpio_nombre from municipios where codigo = 1 and cod_edo = 6 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT pquia_nombre from parroquia where cdo_pquia = 7 and cod_mpio = 1 and cod_edo = 6 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT pai_nombre from paises where codigo = 232 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT edo_nombre from estados where codigo = 6 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT cd_nombre from ciudades where codigo = 65 and cod_pais = 232 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT mpio_nombre from municipios where codigo = 1 and cod_pais = 232 and cod_edo = 6 [1][0] OK
+C:[29/01/2024 19:55:52.03][172.16.4.20][N_E] SELECT pquia_nombre from parroquia where cdo_pquia =  and cod_edo = 6 and cod_mpio=1 [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]00901 PRS CNE Command not properly ended}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:17:18.66][172.16.4.119][N_E] SELECT CODIGO, MPIO_NOMBRE FROM MUNICIPIOS WHERE COD_PAIS='232' AND COD_EDO='6'  ORDER BY MPIO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:17:17.47][172.16.4.119][N_E] SELECT CODIGO, CD_NOMBRE FROM CIUDADES WHERE COD_PAIS='232' AND COD_EDO='6'  ORDER BY CD_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:18:43.62][172.16.4.119][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:18:43.62][172.16.4.119][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:22:07.00][172.16.4.119][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:22:07.00][172.16.4.119][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:23:32.19][172.16.4.119][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:23:32.19][172.16.4.119][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:24:56.74][172.16.4.119][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:24:56.44][172.16.4.119][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:24:56.74][172.16.4.119][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 16:24:56.44][172.16.4.119][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 18:41:11.60][172.16.4.119][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 18:41:11.60][172.16.4.119][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 18:42:36.36][172.16.4.119][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 18:42:36.36][172.16.4.119][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 18:44:46.59][172.16.4.119][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 18:44:46.59][172.16.4.119][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 19:05:37.10][172.16.4.119][N_E] SELECT codigo, pai_nombre from paises ORDER BY PAI_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+*:[30/01/2024 19:05:37.10][172.16.4.119][N_E] SELECT CODIGO, EDO_NOMBRE FROM ESTADOS ORDER BY EDO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+ {[MERANT][ODBC SQLBase driver][SQLBase]09268 GCI CCN Cannot connect}
+C:[31/01/2024 19:18:57.59][172.16.4.119][N_E] SELECT mpio_nombre FROM municipios WHERE codigo='9' and cod_pais='232' and cod_edo='6' [1][0] OK
+C:[31/01/2024 19:18:57.59][172.16.4.119][N_E] SELECT CODIGO, MPIO_NOMBRE FROM MUNICIPIOS WHERE COD_PAIS='232' AND COD_EDO='6'  AND codigo != '9'  ORDER BY MPIO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]00135 SQL ICN Invalid cursor number}
+C:[01/02/2024 07:56:50.87][172.16.4.119][N_E] SELECT CODIGO, MPIO_NOMBRE FROM MUNICIPIOS WHERE COD_PAIS='232' AND COD_EDO='6'  ORDER BY MPIO_NOMBRE ASC [0][0]  {}
+ {[MERANT][ODBC SQLBase driver][SQLBase]t%}
+*:[01/02/2024 08:26:03.26][172.16.4.119][N_E] SELECT CODIGO, CD_NOMBRE FROM CIUDADES WHERE COD_PAIS='232' AND COD_EDO='6'  ORDER BY CD_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]t%}
+C:[02/02/2024 15:34:34.87][172.16.4.119][N_E] SELECT CDO_PQUIA,PQUIA_NOMBRE,COD_MPIO FROM PARROQUIA WHERE COD_EDO='6' AND COD_MPIO='1'  ORDER BY PQUIA_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]00128 SQL CAE Cursor name already exists or is already open}
+C:[06/02/2024 09:28:58.44][172.16.4.119][N_E] SELECT mpio_nombre FROM municipios WHERE codigo='1' and cod_pais='232' and cod_edo='6' [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]Ä¯ÆêÚÆÏÚÆ¸∑o}
+C:[06/02/2024 09:28:58.44][172.16.4.119][N_E] SELECT CODIGO, MPIO_NOMBRE FROM MUNICIPIOS WHERE COD_PAIS='232' AND COD_EDO='6'  AND codigo != '1'  ORDER BY MPIO_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]00135 SQL ICN Invalid cursor number}
+ {[MERANT][ODBC SQLBase driver][SQLBase]®sê}
+*:[06/02/2024 09:30:57.22][172.16.4.119][N_E] SELECT CDO_PQUIA,PQUIA_NOMBRE,COD_MPIO FROM PARROQUIA WHERE COD_EDO='6' AND COD_MPIO='1'  ORDER BY PQUIA_NOMBRE ASC [0][0]  {[MERANT][ODBC SQLBase driver][SQLBase]®sê}

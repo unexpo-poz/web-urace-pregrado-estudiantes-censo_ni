@@ -7,7 +7,7 @@ $tProceso			= 'Censo para Nuevo Ingreso Lapso 2024-1';
 $lapsoProceso		= '2024-1';
 $tLapso				= ' Lapso '.$lapsoProceso;
 
-$laBitacora			= $_SERVER[DOCUMENT_ROOT].'/log/pregrado/estudiantes/nuevo_ingreso/censo_ni_'.$lapsoProceso.'.log';
+$laBitacora			= $_SERVER['DOCUMENT_ROOT'].'/log/pregrado/estudiantes/nuevo_ingreso/censo_ni_'.$lapsoProceso.'.log';
 
 $inscHabilitada		= true;
 $fecha_i = '17-01-2024'; // Fecha de inicio del censo (DD-MM-AAAA).
